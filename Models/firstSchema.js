@@ -17,6 +17,9 @@ const firstSchema = new mongoose.Schema({
 
 })
 
+
+// Here You use the word members which createcollection with the name of Members//
+ 
 const firstSchemaSend = mongoose.model('Members', firstSchema)
 
 const familyMembers = async (nm,age,fe,hob,isA,comm)=>{
